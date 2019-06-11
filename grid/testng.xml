@@ -1,0 +1,24 @@
+
+<suite name="Suite" parallel="tests">
+  <test name="Test">
+  <parameter name="node" value="http://192.168.43.200:4444/wd/hub/"/>
+  <parameter name="browser" value="firefox"/>
+  <classes>
+  <class name="SeleniumGrid.Grid2"/>
+ </classes>
+  </test>
+ <test name="Test1">
+  <parameter name="node" value="http://192.168.43.231:4444/wd/hub/"/>
+  <parameter name="browser" value="InternetExplorer"/>
+  <classes>
+  <class name="SeleniumGrid.Grid2"/>
+ </classes>
+  </test>
+  <test name="Test2">
+  <parameter name="node" value="http://192.168.43.194:4444/wd/hub/"/>
+  <parameter name="browser" value="chrome"/>
+  <classes>
+  <class name="SeleniumGrid.Grid2"/>
+ </classes>
+  </test>
+</suite> 

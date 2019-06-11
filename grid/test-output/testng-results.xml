@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61467" started-at="2019-03-13T06:41:11Z" finished-at="2019-03-13T06:42:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60551" started-at="2019-03-13T06:41:11Z" finished-at="2019-03-13T06:42:12Z">
+      <class name="SeleniumGrid.grid4">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:SeleniumGrid.grid4@c64813]" name="test" duration-ms="60518" started-at="2019-03-13T12:11:11Z" finished-at="2019-03-13T12:12:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.2.2:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- SeleniumGrid.grid4 -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="61467" started-at="2019-03-13T06:41:11Z" finished-at="2019-03-13T06:42:13Z">
+      <class name="SeleniumGrid.grid4">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:SeleniumGrid.grid4@340fab]" name="test" duration-ms="61428" started-at="2019-03-13T12:11:11Z" finished-at="2019-03-13T12:12:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.2.2:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- SeleniumGrid.grid4 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

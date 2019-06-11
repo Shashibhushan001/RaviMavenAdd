@@ -1,0 +1,17 @@
+
+<suite name="Suite" parallel="tests">
+  <test name="Test">
+  <parameter name="node" value="http://192.168.2.2:4444/wd/hub/"/>
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="SeleniumGrid.grid4"/>
+    </classes>
+  </test> 
+  <test name="Test1">
+  <parameter name="node" value="http://192.168.2.2:4444/wd/hub/"/>
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="SeleniumGrid.grid4"/>
+    </classes>
+  </test> 
+</suite> 
